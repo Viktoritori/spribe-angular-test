@@ -1,0 +1,21 @@
+:host {
+    display: block;
+    width: 260px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #d0cfcf;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.remove-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

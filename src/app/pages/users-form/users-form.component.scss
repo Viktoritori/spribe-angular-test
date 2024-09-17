@@ -1,0 +1,33 @@
+:host {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.forms-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn-primary {
+    width: fit-content;
+}
+
+.add-button {
+    cursor: pointer;
+    padding: 80px;
+    background: #e5e0e0;
+    border-radius: 10px;
+}
+
+app-user-card {
+    margin: 0 10px 10px 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

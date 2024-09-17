@@ -5,13 +5,17 @@ import {RouterOutlet} from "@angular/router";
 import {HTTP_INTERCEPTORS, provideHttpClient, withInterceptorsFromDi} from "@angular/common/http";
 import {MockBackendInterceptor} from "./shared/mock-backend/mock-backend.interceptor";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TooltipDirective } from './shared/directive/tooltip.directive';
+import { UsersFormComponent } from './pages/users-form/users-form.component';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     RouterOutlet,
-    NgbModule
+    NgbModule,
+    TooltipDirective,
+    UsersFormComponent
   ],
   providers: [
     provideHttpClient(withInterceptorsFromDi()),
